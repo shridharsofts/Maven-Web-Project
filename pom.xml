@@ -6,7 +6,7 @@
   <groupId>com.mt</groupId>
   <artifactId>maven-web-project</artifactId>
   <packaging>war</packaging>
-  <version>1.1-SNAPSHOT</version>
+  <version>4.0.1</version>
   <name>Maven Web Project 1st November</name>
   <description>Maven Web Project for Java Project</description>
 
@@ -78,7 +78,7 @@
 			<version>${spring.version}</version>
 		</dependency>
   </dependencies>
-
+	<!--
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
@@ -91,7 +91,7 @@
 	      <url>http://localhost:8085/mithuntechnologies/repository/flipkart-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
-	
+	-->
 	
   <build>
     <plugins>
